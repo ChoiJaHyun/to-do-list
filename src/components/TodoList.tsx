@@ -1,6 +1,6 @@
 import { Flex } from "@chakra-ui/react";
 import { FC } from "react";
-import TodoCard from "./TodoCard.tsx";
+import TodoCard from "./TodoCard";
 
 const TodoList: FC = () => {
   return (

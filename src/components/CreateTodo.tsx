@@ -3,7 +3,13 @@ import { FC } from "react";
 
 const CreateTodo: FC = () => {
   return (
-    <Flex bgColor="teal.200" h={32} justifyContent="center" alignItems="center">
+    <Flex
+      px={8}
+      bgColor="teal.200"
+      h={32}
+      justifyContent="center"
+      alignItems="center"
+    >
       <Input />
       <Button ml={2} colorScheme="teal">
         만들기

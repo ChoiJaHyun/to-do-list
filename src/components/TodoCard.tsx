@@ -5,7 +5,7 @@ import { FiEdit3, FiTrash2 } from "react-icons/fi";
 const TodoCard: FC = () => {
   return (
     <Flex bgColor="white" px={4} py={2} rounded="lg" gap={1}>
-      <Text fontSize={20} bgColor="blue.100" w={48} isTruncated={true}>
+      <Text fontSize={20} w={48} isTruncated={true}>
         🏃‍♀️ 달리기
       </Text>
       <Button colorScheme="blue">
